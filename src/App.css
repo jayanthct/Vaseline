@@ -1,0 +1,14 @@
+* {
+    cursor: none;
+  }
+  
+  .cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #2C2C2C;
+    pointer-events: none;
+  }
