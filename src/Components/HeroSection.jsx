@@ -6,6 +6,9 @@ import image3 from "../assets/Images/vaselinejar.png";
 import chevron from "../assets/Icons/chevron.svg";
 import mouseicon from "../assets/Icons/mouseicon.svg";
 import { SplitText } from "./SplitText";
+import { BlurText } from "./Blurtext";
+
+
 
 function HeroSection() {
   const nextSlide = () => {
@@ -90,9 +93,9 @@ function HeroSection() {
               marginBottom: "-48px", // Adjust this value for desired overlap
             }}
           >
-            <span className="font-italianno text-[120px] text-primary">
-              Vaseline
-            </span>
+
+            <BlurText text="Vaseline" className="custom-class font-italianno text-[120px] text-primary" delay={200} />
+
 
             <SplitText
               text="Makes Your"
@@ -133,10 +136,8 @@ function HeroSection() {
               }}
               delay={50}
             />
+            <BlurText text="Miracle" className="custom-class font-italianno text-[120px] text-primary" delay={200} />
 
-            <span className="text-[120px] font-italianno text-primary">
-              Miracle
-            </span>
           </div>
         </div>
         <div className="mouse flex flex-col gap-[4px] justify-center items-center">

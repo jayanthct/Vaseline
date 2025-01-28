@@ -18,7 +18,7 @@ function Navbar() {
                 </div>
                 <div className="loginCart flex items-center gap-[8px] lg:gap-[12px]">
                     <a href="#" className="navbutton text-[white] bg-gray rounded-full px-[18px] py-[8px]">Login</a>
-                    <a href="#" className="navbutton bg-[#F8F8F8] rounded-full px-[18px] py-[18px] relative">
+                    <a href="#" className="navbutton bg-primary rounded-full px-[18px] py-[18px] relative">
                         <img src={cart} alt="cart" className="cart" />
                         <div className="counter w-[20px] h-[20px] text-[12px] flex justify-center items-center absolute text-[white] rounded-full bg-gray top-0 right-0">1</div>
                     </a>
