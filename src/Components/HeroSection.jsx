@@ -5,7 +5,7 @@ import image2 from "../assets/Images/vaselinebottle.png";
 import image3 from "../assets/Images/vaselinejar.png";
 import chevron from "../assets/Icons/chevron.svg";
 import mouseicon from "../assets/Icons/mouseicon.svg";
-import { SplitText } from "./SplitText";
+import { SplitText } from "./Splittext";
 import { BlurText } from "./Blurtext";
 
 
